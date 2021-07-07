@@ -87,9 +87,10 @@
 
 ### 三、JVM虚拟机
 
-*  	[内存结构](jvm内存结构.md)
-* 	[类加载机制](类加载器.md)
-*  	[垃圾回收](java-gc.md)
+*  	[内存模型](jvm内存结构.md)
+* 	[类加载](类加载器.md)
+*  	[GC垃圾回收](java-gc.md)
+* 	[强引用、软引用、弱引用、幻象引用](java-class-reference.md)
 * ###### JVM 调优
 	*   [jvm参数](jvm-param.md)
 	*  	[jvm自带命令](https://mp.weixin.qq.com/s/QNr8somjodyvU9dRAQG2oA)
@@ -115,3 +116,13 @@
 * 	[HashMap扩容、散列碰撞](https://yq.aliyun.com/articles/225660?spm=5176.100238.spm-cont-list.1.LYRwKV)
 * 	[一台Java服务器跑多少个线程](https://mp.weixin.qq.com/s/lQkPltX3yS3bGb9EbxHGAg)
 * 	[【死磕Java并发】—- 深入分析CAS](https://mp.weixin.qq.com/s/--AMdl0GZQkY1MWIWQ-HHA)
+* 	[深入探索 Java 热部署](https://www.ibm.com/developerworks/cn/java/j-lo-hotdeploy/index.html)
+* 	signal 信号
+	* [jvm与系统信号(2)](http://hongjiang.info/jvm-and-signals-2/)
+	* [kill 命令详解 系统信号](https://www.cnblogs.com/MYSQLZOUQI/p/5258898.html)
+	* [Linux系统下如何优雅地关闭Java进程方法](http://www.kgc.cn/bbs/post/90262.shtml)
+	* [signal信号捕捉](https://blog.csdn.net/aa4790139/article/details/8584931)
+	* drools-demo 代码示例，java工程优雅关闭（kill pid , 默认信号 15）
+* 
+	
+	

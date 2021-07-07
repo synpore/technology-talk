@@ -72,6 +72,8 @@
 * [findbug]()
 * [性能压测 --- jmeter](http://jmeter.apache.org/)
 * [性能压测 --- jprofiler]()
+* 自动化
+	* [自动化测试工具 --- selenium](http://www.selenium.org.cn/)
 
 ##### 图形、图表、图片
 
@@ -89,6 +91,13 @@
 ##### 通用型
 * [Java生态圈框架汇总---可能会有满足你的](https://github.com/jobbole/awesome-java-cn)
 
+##### 动态管理Class字节码
+* [Javassist]()
+* [groovy](groovy.md)
+
+##### 监控
+* [日志数据监控 ---- Grafana](https://yq.aliyun.com/articles/227006)
+
 ##### 杂项
 
 * [商品详情页的静态化 --- FreeMarker](FreeMarker.md)
@@ -100,4 +109,6 @@
 * 字符串表达式动态求值
 	* [aviator](https://github.com/killme2008/aviator/wiki)
 	* [MVEL](http://blog.csdn.net/sunnyyoona/article/details/75244442)
-*
+* [json数据比对 --- jsondiffpatch](https://github.com/benjamine/jsondiffpatch)
+* [无头浏览器 --- HtmlUnit](https://www.cnblogs.com/zerotomax/p/7255950.html)
+* [Java爬虫 --- cdp4j](https://www.jianshu.com/p/054b50026f9a)

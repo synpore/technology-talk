@@ -2,15 +2,37 @@
 
 ---
 
+### 个人介绍
+
+计算机专业出身，研究僧，阿里架构师。写过专利，竞赛拿过奖，CSDN博客专家。负责过电商交易、社区团购、营销、金融等业务。多年团队管理经验，爱思考，热衷把工作沉淀写成文章
+
+**近期整理多个技术专栏，发布在微信公众号：** [微观技术](https://mp.weixin.qq.com/mp/appmsgalbum?__biz=Mzg2NzYyNjQzNg==&action=getalbum&album_id=1874600102896467974#wechat_redirect) **。欢迎扫描下方↓↓↓ 二维码 关注**
+
+
+1、【Spring Boot 生态之开源框架实战】基于spring boot的常用中间件快速集成入门系列手册，包含  [Mybatis、druid、Data JPA、Redis、Sharding-sphere、Guava、Caffeine、Ehcache、ElasticSearch、Kafka、Pulsar、Apollo、Nacos、OkHttp、HttpClient、gRPC、Dubbo、Seata](https://mp.weixin.qq.com/mp/appmsgalbum?__biz=Mzg2NzYyNjQzNg==&action=getalbum&album_id=1874600102896467974#wechat_redirect)，等几十个常用开源框架
+
+2、【电商会员营销】几十种营销活动的扩展性玩法如何架构
+
+3、【团队管理】组团打怪升级，需要具备哪些管理技能
+
+4、【性能架构】“三高”系统的各种架构设计经验
+
+![image](weiguanjishu.jpg)
+
+---
+
 ### 前言
 
-有人认为编程是一门技术活，要有一定的天赋，非天资聪慧者不能及也。其实不然，笔者虽是计算机专业出身，但工作年限并不长，对于技术这碗饭有一些心得体会，大多数人成为某领域顶级专家可能会有些难度，但应对日常工作，成长为资深研发工程师、技术专家、甚至成为小团队的Team Leader，其实并不难。
+有人认为编程是一门技术活，要有一定的天赋，非天资聪慧者不能及也。
 
-**多读书、多看报，多研究常用开源框架的源码，比如：github.com，这里汇集了全球工程师的智慧！**
+其实不然，笔者计算机专业出身，对于技术这碗饭有一些心得体会，大多数人成为某领域顶级专家可能会有些难度，但应对日常工作，**成长为资深研发工程师、技术专家、甚至成为小团队的Team Leader，并不难**
 
-言归正传，下文会列举工作中常用的一些技术，以及如何锻炼提升自己的架构能力。
+**多读书、多看报，多研究开源框架源码，比如：github.com，这里汇集了全球工程师的智慧！**
+
+言归正传，本文会列举工作中常用的一些技术，以及如何锻炼提升自己的架构能力。
 
 由于每块技术市场上基本都有对应的网络资料或书籍，所以本文只是少篇幅列举工作中用到的核心知识点，抛砖引玉，属于进阶型，不适用初学者。
+
 
 ### 基础知识
 * 	[java](basic-knowledge/java.md)
@@ -57,7 +79,8 @@
 * [commons-io](open-source-framework/commons-io.md)
 * [Quartz](open-source-framework/Quartz.md)
 * [HttpClient](open-source-framework/HttpClient.md)
-* [Javassist](http://blog.csdn.net/itomge/article/details/7671294)
+* [okhttp](open-source-framework/okhttp.md)
+* [Javassist](open-source-framework/Javassist.md)
 * [lombok](open-source-framework/lombok.md)
 
 
@@ -136,6 +159,7 @@
 * [通用技术方案选型](system-architecture/technology-selection.md)
 * [编码前3000问](system-architecture/编码前3000问.md)
 * [软硬件性能](system-architecture/software-performance.md)
+* [技术大纲](system-architecture/knowledge-outline.md)
 
 
 ### 项目管理
@@ -170,20 +194,11 @@
 	* [大数据面试题](other/bigdata-interview.md)
 *	[回车与换行的区别](other/回车与换行的区别.md)
 *   [github上fork项目后，如何同步更新后面提交](http://blog.csdn.net/qq1332479771/article/details/56087333)
-
-### 写在后面
-
-**不知不觉，这个项目已经更新两年了。如果喜欢请点击右上角 star 收藏；如果因为读里面的文章，开阔了视野，提升了技术能力并升职加薪，也欢迎打赏表扬，你的赞赏会激励作者一直更新下去，谢谢支持！**
+* 	[其它](other/other.md)
 
 
+### 写在最后
 
-![image](basic-knowledge/img/27.png)
-![image](basic-knowledge/img/30.png)
+`商务合作，请发邮件到 aalansehaiyang52@126.com`
 
-### 联系作者
 
-Email：aalansehaiyang52@126.com
-
-### Lisence
-
-Lisenced under [Apache 2.0 lisence](http://opensource.org/licenses/Apache-2.0)

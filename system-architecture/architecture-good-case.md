@@ -19,16 +19,19 @@
 * ###### 蘑菇街
 	* [蘑菇街电商交易平台服务架构及改造优化历程](http://mp.weixin.qq.com/s/wQH7Zz6o88pj-v1E2rGJEw)
 * ###### 有赞
-	* [有赞的交易系统架构困局以及破局之道](http://mp.weixin.qq.com/s/XLWq01U0mOWpGEmXeri2TQ)
+	* [交易系统架构困局以及破局之道](http://mp.weixin.qq.com/s/XLWq01U0mOWpGEmXeri2TQ)
 	* [团队和工程管理取舍的经验之谈](https://mp.weixin.qq.com/s/4W3WVssWXu4ViXFhBPc_SQ)
+	* [订单导出的配置化实践](https://mp.weixin.qq.com/s/enawjPibzmwXJ9MTVLSPxQ)
+	* [订单管理的三生三世与“十面埋伏”](https://mp.weixin.qq.com/s/pkPVYmrUTywSiswZz_YqKw)
 * ###### O2O外卖	
 	* [美团外卖订单中心的演进](http://mp.weixin.qq.com/s/nmRG5tyj28-pS_dho2NOqg)
 	* [饿了么：日订单量超900万的架构设计及演进之路](https://mp.weixin.qq.com/s/DvQszWAr89XjWodJUjVTjw)
 * ###### 苏宁
 	* [苏宁六年企业IT架构的演进之路](https://mp.weixin.qq.com/s/kBblUtVUvWDFDy9cqrUH5Q)
-* ###### 库存	
+* ###### 京东到家
 	* [库存系统难破题？京东到家来分享](https://mp.weixin.qq.com/s/aIzdMG1y0a5cWOS4lx6IuQ)
 	* [京东到家库存系统架构设计](https://mp.weixin.qq.com/s/-9fvfJ6KT3xSRQZnlTBBhA)
+	* [京东到家订单中心 Elasticsearch 演进历程](https://mp.weixin.qq.com/s/TrCJJtvhjB2m29fOOa3Rzg)
 * ###### 其它
 	* [订单系统分库分表实践](http://mp.weixin.qq.com/s/kauO45XNQaV40hxmSc3BpA)
 	* [盘点电商大战背后的技术力量支撑](http://mp.weixin.qq.com/s/01rmXXkEz-cQaLBe7eGeQA)
@@ -65,15 +68,20 @@
 	* [联营结算平台建设之路](https://mp.weixin.qq.com/s/FHTB8eKwIWnMxNraXghqvA)
 
 ---
-#### 物流
+#### 物流、外卖
 
 * ###### 菜鸟
 	* [谈笔1000亿的生意：揭秘菜鸟全球智能仓配技术实践](https://mp.weixin.qq.com/s/igH0UwkvP9WiVTkFX-IrLA)
+	* [菜鸟下一代分布式体系架构的设计理念](https://mp.weixin.qq.com/s/1NhflDbO6CKYNSQcdM9ekg)
 * ###### 京东
 	* [京东物流系统架构演进中的最佳实践](http://mp.weixin.qq.com/s/2HVkQCaXQQEQIqTrJZ01wA)
 	* [大数据构建京东智慧物流](https://mp.weixin.qq.com/s/G1l3lRZezV6_h-4CpdofvA)
 * ###### 顺丰
 	* [顺丰IT基础架构运维的焦虑与进化](https://mp.weixin.qq.com/s/vK2VRyLtcH1qYtO1VbllOw)
+* ###### 达达配送
+	* [高性能服务端优化之路](https://mp.weixin.qq.com/s/0lMiU_rZpoT3wqwVHyCpDw)
+* ###### 外卖
+	* [从下单到享用，外卖背后的分布式架构设计](https://mp.weixin.qq.com/s/vdxhbPTlYFftAQkNhfFufA)
 * ###### 其它
 	* [大数据在物流企业中的应用](https://mp.weixin.qq.com/s/X-0qIcxnGhV_PTnXTR1IuA)
 
@@ -258,6 +266,9 @@
 
 * [搭建一个基于Java的分布式爬虫系统](https://mp.weixin.qq.com/s/E0xEqPSbi5IEYV-IFfn5vw)
 * [一次架构设计心得体会](https://mp.weixin.qq.com/s/-3AmP_yMFY75Bdnke4Vmzw)
+* github
+	* [web垂直爬虫框架](https://github.com/java-webbee/web-bee)
+	* [如何写一个垂直爬虫并抓取知乎用户20万数据](https://github.com/pkwenda/blog/issues/8)
 
 
 ---
@@ -266,11 +277,21 @@
 * ###### 会员、注册、登录
 	* [单点登录怎么实现？](https://mp.weixin.qq.com/s/ZT1B6ziSSRW41FN33xA3ZA)
 	* [深入了解Token认证的来龙去脉](https://mp.weixin.qq.com/s/DkwfpZibKdllfm0lpxukWg)
+	* [单点登录原理与简单实现](https://mp.weixin.qq.com/s/89YtsPX4cPLluWbM8JSNXQ)
 * ###### 短信
 	* [如何设计短信验证码防刷机制](https://blog.csdn.net/u011277123/article/details/77519910)
 	* [5种常见的短信验证码防刷策略](http://www.woshipm.com/pd/580976.html)
 * ###### 消息推送、push
 	* [如何用Redis平衡海量信息推送的实效与体量](https://mp.weixin.qq.com/s/tLFOFEWBUfjjO_YInDxpJw)
+* ###### 智能流量调度
+	* [京东到家订单派发的技术实战](https://mp.weixin.qq.com/s/tNMDImzKPJmkMBrssSl5yw)
+
+---
+#### 技术点
+* ###### 异步非阻塞
+	* [Servlet的异步和非堵塞](https://www.jdon.com/idea/javaee7/servlet21.html)
+* ###### 分布式任务
+	* [点我达分布式任务调度系统-DaJob](https://mp.weixin.qq.com/s/DfGligz50B_x6Y_S-DyU9w?from=groupmessage&isappinstalled=0)
 
 ---
 #### 其它
@@ -285,4 +306,5 @@
 * [Java高效开发12个精品库](https://mp.weixin.qq.com/s/jy-tpDbbhC9EuUGN3mzWqg)
 * [Google最热门60款开源项目](https://mp.weixin.qq.com/s/1jvK89iRtX_aofCww34G1w)
 * [今日头条Go语言构建日请求千亿级微服务的最佳实践](https://mp.weixin.qq.com/s/iEULJ6aGXezPjZTAq1-qCg)
+* [亿级流量系统架构之如何设计承载百亿流量的高性能架构](https://mp.weixin.qq.com/s/FuIlEl4VIsMfLvDGhgMDVQ)
 

@@ -24,8 +24,10 @@
 #### 开源框架
 
 * [tcc-transaction是TCC型事务java实现](https://github.com/changmingxie/tcc-transaction)
+* [TCC分布式事务的实现原理](https://mp.weixin.qq.com/s/K0PCZmdXyJYwyuEPW8bvFg)
 * [分布式事务 TCC-Transaction 源码分析 —— Dubbo 支持](https://mp.weixin.qq.com/s/WRH8C3MYSFghFopBKmshJw)
 * [分布式事务 TCC-Transaction 源码分析 —— 项目实战](https://mp.weixin.qq.com/s/vPr4yMUzurtVkW3BGXit5g)
 * [GTS来了！阿里微服务架构下的分布式事务解决方案](https://mp.weixin.qq.com/s/bUtu2nTs0bybnTvk-iLt6Q)
 * [Atomikos](https://yq.aliyun.com/articles/39054)
 * [微服务架构下分布式事务解决方案 —— 阿里GTS](https://mp.weixin.qq.com/s/BWrGw5dkRfR7gws2XY8vHQ)
+* [ByteJTA是一个兼容JTA规范的基于XA/2PC的分布式事务管理器](https://github.com/liuyangming/ByteJTA)

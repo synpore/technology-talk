@@ -19,10 +19,13 @@
 
 * [java.lang.OutOfMemoryError 8种典型案例](https://github.com/cncounter/outofmemoryerror)
 
+* [一次内存溢出的排查经历](https://mp.weixin.qq.com/s/RnHfphZp3wmS2b78RZFugw)
+
+
 
 ### 帮助手册
 
-* [线上问题排查---JDK内置工具](http://blog.csdn.net/itomge/article/details/9904555)
+* [JDK内置命令](http://blog.csdn.net/itomge/article/details/9904555)
 
 * [JDK内置工具补充](JDK内置工具补充.md)
 
@@ -34,6 +37,12 @@
 
 * [java系统诊断命令行工具--anatomy](anatomy.md)
 
+* [【推荐】Alibaba Java诊断利器 --- Arthas ](https://github.com/alibaba/arthas)    [Link2](https://mp.weixin.qq.com/s/VcnJDuYgsqrGNrOsrpUmpw)
+
 * [一些常用的shell脚本](https://github.com/oldratlee/useful-scripts)
 
 * [唯品会的排查线上问题的一些封装工具](https://github.com/vipshop/vjtools)
+
+* [史上最全的高可用服务系统线上问题排查工具单（一）](https://mp.weixin.qq.com/s/d_Tl6eiTmpde6eGT5pTaCg)
+
+* [史上最全的高可用服务系统线上问题排查工具单（二）](https://mp.weixin.qq.com/s/6EBgu__zwkYbGDjnVsbDlQ)

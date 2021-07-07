@@ -1,6 +1,25 @@
 ## 个人成长与职业规划
 ---
 
+### 成长历程
+
+* 早期阶段，技术人员，要拓展自己的技术宽度。以自己工作的项目为中心，涉及的方方面面的技术都要有所了解。另外要具有工程化的能力，让自己具备开发商业软件的能力。
+* 根据自己的兴趣，加强在某一领域的技术深度。选择：偏业务方向还是偏基础技术方向
+	* 偏业务方向
+		* 对业务发展的未来有一定的预判，有商业的敏感意识
+		* 复杂的业务能合理的抽象
+		* 系统的设计上能对未来业务的变化有一定的预留处理
+	* 偏基础方向
+		* 对基础技术的方向有一定的预判，避免业务发展受到基础技术的拖累
+		* 对业界的技术发展方向有自己的认知和判断
+		* 对应的基础技术领域有不错的技术深度
+* 团队TL
+	* 重要的能力是在方向的判断上
+	* 根据方向的判断来组织建设（团队搭建、人才识别、培养、招聘等）
+* 架构师
+	* 无论是业务架构还是基础方向的架构，领域的知识宽度是非常重要的。这意味着能做多大范围的事。一个好的架构师在技术风险的控制能力要非常强。
+
+
 ### 技术提升（高P）
 
 * [程序员不能错过的28份技术知识图谱，你的进阶路上必备](https://mp.weixin.qq.com/s/trcK2J_a8h3C4fqPaKSc6g)
@@ -18,6 +37,8 @@
 * [架构经验老司机的技术选型哲学](https://mp.weixin.qq.com/s/PJeCdbpILQiOc9gpQEQ9rA)
 * [一个NB架构师的必备素质](https://mp.weixin.qq.com/s/CCYJ4TmAM5ht_DSZMWB5ow)
 * [你写的代码，是别人的噩梦吗？](https://mp.weixin.qq.com/s/6ePpYgwm8t1EY2PtFOX5rg)
+* [论架构师的自我修养](http://mp.weixin.qq.com/s/tc3hWHPw2JvqdnhXnWEGbQ)
+* [佛系程序员的月薪五万指南](https://mp.weixin.qq.com/s/N00rWLkkLjV7zQnzxBVKaA)
 
 ---
 ### 技术（P） --> 管理（M）
@@ -39,6 +60,7 @@
 * [想从技术转管理？这些坑你可要注意了！](https://mp.weixin.qq.com/s/Xq4zjEzaRGGOjghUHxLYFw)
 * [双面管理者：雷霆手段，菩萨心肠](https://mp.weixin.qq.com/s/LZ5mUUv1jnb1TAvpQs_F3Q)
 * [作为部门领导，自己天天撸代码忙成狗，下属却没事干，怎么办？](https://mp.weixin.qq.com/s/rSbFfzVT10OLwJy0QOaGpQ)
+* [好不容易当上技术管理者，却时常担心被下属diss技术水平，怎么办？](https://mp.weixin.qq.com/s/LtrgO4aY5w9ykMfW61czzg)
 
 
 ---
@@ -48,6 +70,8 @@
 * [程序员怎样快速成长？](https://mp.weixin.qq.com/s/TPViDjviDPuitjyaTf9I3g)
 * [阿里P9技术专家：程序员的技术实力是什么？](https://mp.weixin.qq.com/s/h-32WUi1far1WAchf-X_PQ)
 * [成为一名优秀架构师有标准吗？这12点或许能带给你一些启发](https://mp.weixin.qq.com/s/3obF9ltx_l28ZFU1z3jcCw)
+* [想要成为一个合格的架构师](https://mp.weixin.qq.com/s/jv_56Y91gkZ6z_reF8nchA)
+* [架构师不写代码，能行吗？](https://mp.weixin.qq.com/s/HpevoT6g5UXP4PaL0NUvGw)
 
 ---
 ### 团队
@@ -59,6 +83,7 @@
 	* [带团队，强势真是好事么？](https://mp.weixin.qq.com/s/waTzuYQFOQmkC33AO3sywQ)
 	* [带团队，要不要言传身教？](https://mp.weixin.qq.com/s/Fio662OSxpCgaCxQKNEICA)
 	* [带团队，不要轻易放弃任何一个队友](https://mp.weixin.qq.com/s/k0j8LkV7XVZflYIXJm5zYg)
+	* [这些年，leader教我的那些事](https://mp.weixin.qq.com/s/l8P1JfNtFVBA9MDOlfsdFA)
 
 ---
 ### HR技能
@@ -77,4 +102,5 @@
 * [一名7年总监的6点离职忠告](https://mp.weixin.qq.com/s/n5BkGFOFtS2tMcKMqi5psw)
 * [程序员增加收入实用指南](https://mp.weixin.qq.com/s/ZcxxugWNpzL_WHT8GfVGZQ)
 * [程序员必看—程序员如何高效提升自己？](https://mp.weixin.qq.com/s/BnkmICaK2duAu6URlNuKLg)
+
 

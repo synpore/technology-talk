@@ -254,7 +254,14 @@ public class BigpipeConfiguration {
 }
 ```
 
-开关为true的时候才实例化bean
+开关为true的时候才实例化bean，后面是默认值
+
+* ConditionalOnWebApplication
+
+当前项目是WEB项目的条件下
+
+https://www.jianshu.com/p/23f504713b94
+
 
 * @ConditionalOnProperty
 
@@ -264,7 +271,7 @@ https://blog.csdn.net/dalangzhonghangxing/article/details/78420057
 
 * @ConditionalOnClass
 
-该注解的参数对应的类必须存在，否则不解析该注解修饰的配置类
+该注解的参数对应的类在class path中，否则不解析该注解修饰的配置类
 
 ```
 @Configuration
@@ -281,6 +288,21 @@ public class GsonAutoConfiguration {
 }
 
 ```
+
+* ConditionalOnBean
+
+
+```
+@Configuration
+@ConditionalOnBean({LoadBalancerClient.class})
+@EnableConfigurationProperties({LoadBalancerRetryProperties.class})
+public class LoadBalancerAutoConfiguration {
+。。。
+
+}
+```
+只有 LoadBalancerClient类创建的bean对象在容器中存在时，才会执行LoadBalancerAutoConfiguration中的配置类
+
 
 * @ConditionalOnMisssingClass({ApplicationManager.class})
 

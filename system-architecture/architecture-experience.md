@@ -8,11 +8,24 @@
 *	[大型网站技术架构](大型网站技术架构.md)
 *	[各大互联网公司架构演进之路汇总](http://blog.fulin.org/2016/03/summary-of-architectures/)
 *	[中小型研发团队架构落地实践18篇，含案例、代码](https://mp.weixin.qq.com/s/AbUGOWN27FEUPWgDQkF_Dw)
+* [高可用系统架构](https://mp.weixin.qq.com/s/5vVXBXkd-Ilh7zk5G6Wxcg)
+* [看京东系统架构师如何让笨重的架构变得灵巧](https://mp.weixin.qq.com/s/-wIC6yPifSEfT_Yybi4pTg)
 * 	前后端分离
 	* [互联网分层架构，为啥要前后端分离](https://mp.weixin.qq.com/s/Nhyo969WnEwyCWpr34ECcA)
 	* [前后端API交互如何保证数据安全性？](https://mp.weixin.qq.com/s/On98tXDEpnx1n7sqgZYWzA)
-* [高可用系统架构](https://mp.weixin.qq.com/s/5vVXBXkd-Ilh7zk5G6Wxcg)
-* [看京东系统架构师如何让笨重的架构变得灵巧](https://mp.weixin.qq.com/s/-wIC6yPifSEfT_Yybi4pTg)
+* 	网关	
+	* [Gateway](Gateway.md)
+	* [微服务网关Zuul迁移到Spring Cloud Gateway](https://mp.weixin.qq.com/s/Qnxec7w26AX6jRl0KRHVHg)
+	* [Spring Cloud 终于按捺不住推出了自己的服务网关 Gateway](https://mp.weixin.qq.com/s/qySjzQ8f-pYwWKPE_8BhVg)
+*   分布式事务
+	* [technology-talk](https://github.com/aalansehaiyang/technology-talk/blob/master/data-base/transaction.md)
+*   注册中心
+	* [几种服务注册与发现组件的原理与比较](https://mp.weixin.qq.com/s/Kawfps7C1pGRMq1eBgiZKw)
+* 	负载均衡
+	* [常用算法](load-balance.md)
+*  Spring Cloud
+	* [苏宁数据中台基于Spring Cloud微服务架构实践](https://mp.weixin.qq.com/s/Xh-C79U35lsIsow_TL41dQ)
+	
 
 ---
 ### 微服务
@@ -23,13 +36,44 @@
 * 	[微服务的4大设计原则和19个解决方案](https://mp.weixin.qq.com/s/YfXjkMX-eQFmEzjG6Lwvrw)
 * 	[微服务后如何做一次系统梳理](https://mp.weixin.qq.com/s/ZxVQ7PvK89XVBYhNUoMnMg)
 *   [微服务架构技术栈选型手册](https://mp.weixin.qq.com/s/zFJokAv8lSQejGFTGJTJeQ)
-*   分布式事务
-	* [资料](https://github.com/aalansehaiyang/technology-talk/blob/master/data-base/transaction.md)
-*   其它
-	* [苏宁数据中台基于Spring Cloud微服务架构实践](https://mp.weixin.qq.com/s/Xh-C79U35lsIsow_TL41dQ)
-* [Service Mesh：重塑微服务市场](https://mp.weixin.qq.com/s/XCUg4nVXJ9Q-mccYAyvc5Q)
 * [微服务2.0技术栈选型手册](https://mp.weixin.qq.com/s/OloZhn2pwfIrOQit_8jefA)
-   
+* [微服务架构在千万级别日调用量、亿级别海量数据场景下的应用实践](https://mp.weixin.qq.com/s/fqOOkMMPwXTNG8PHJ_yUAw)
+* [微服务架构设计基础之立方体模型](https://mp.weixin.qq.com/s/dY2xmz3J735Etb7DtX-9hQ)
+*	Service Mesh	
+	* [Service Mesh：重塑微服务市场](https://mp.weixin.qq.com/s/XCUg4nVXJ9Q-mccYAyvc5Q)
+	* [Service Mesh 及其主流开源实现解析](https://mp.weixin.qq.com/s/fdByrlbKmA0H1ccEBL0NAw)
+	* [蚂蚁金服 Service Mesh](https://skyao.io/#about)
+
+---
+### 缓存
+
+*	[cache经验总结](cache-summary.md)
+*	[缓存杂谈](cache-talk.md)
+*	[缓存架构之防雪崩设计](缓存架构之防雪崩设计.md)
+*	[大型web系统数据缓存设计](https://mp.weixin.qq.com/s/Imn4FuXv2hw3uocgZsBlOg)
+*	[cache常见的陷阱与坑](https://github.com/oldratlee/cache-practice)
+*	[缓存穿透、缓存并发、热点缓存之最佳招式](https://mp.weixin.qq.com/s/62KJ2mSTGoUTPsq0RjU7lg)
+*	[Redis热点Key发现及常见解决方案！](https://mp.weixin.qq.com/s/Jlobo2CrW7YfWJhYoYbVqg)
+*	[再谈缓存的穿透、数据一致性和最终一致性问题](https://mp.weixin.qq.com/s/kYXabyZhVthF-9rR0Uv4lQ)
+*	[分布式缓存的25个优秀实践与线上案例](https://mp.weixin.qq.com/s/foQZSZ0xx0YYPHGawshc3g)
+*	[缓存在大型分布式系统中的最佳应用](https://mp.weixin.qq.com/s/f-K0lPjBPcYFK0hbZJF99Q)
+* 	[数据库和缓存双写一致性方案解析](https://mp.weixin.qq.com/s/xHOZ5Nr4LQwpQoRwoTDxZA)
+* 	[缓存架构，一篇足够？](https://mp.weixin.qq.com/s/4J3oM1j5hcLq4w4TdSEMPg)
+* 	[你应该知道的Java缓存进化史](https://mp.weixin.qq.com/s/DV5eSZtShs2twGe0UwzPuA)
+* 	[cache相关](cache相关.md)	
+* 	[缓存架构设计，从此不再发愁](https://mp.weixin.qq.com/s/c1mOxGeoJzlWC1YkkbDRgA)
+*	[缓存三大问题及解决方案](https://mp.weixin.qq.com/s/ZoNLGTLSFZ8_ZLpmSmUeZg)
+* 	[微服务架构下静态数据通用缓存机制](https://mp.weixin.qq.com/s/QVILVNB9l7zKKkhPxo9CyA)
+
+数据迁移	
+
+* 	[分布式缓存的迁移方案](https://mp.weixin.qq.com/s/8WtbAaNRdaJvRWcVG5K5rQ)
+
+工程案例
+
+*	[有赞多级缓存解决方案怎么做的，你知道吗？【热点数据采用本地缓存来扛秒杀压力】](https://mp.weixin.qq.com/s/ZprlLe3L6pWG6tvrRP231g)
+	
+	
 ---
 ### 数据库
 
@@ -45,23 +89,8 @@
 	* [也谈分库分表在实际应用的实践](https://mp.weixin.qq.com/s/Wn_Ox3617uUkzIJJJoUrjw)
 	* [不停机分库分表迁移](https://mp.weixin.qq.com/s/oK94W71MAdNKXLxHl5dpPQ)
 	* [如何不停机完成单表拆分](split-table.md)
+* [InnoDB，5项最佳实践，知其所以然？](https://mp.weixin.qq.com/s/JEJcgD36dpKgbUi7xo6DzA)
 
----
-### 缓存
-
-* 	[cache相关](cache相关.md)
-*	[cache经验总结](cache-summary.md)
-*	[缓存架构之防雪崩设计](缓存架构之防雪崩设计.md)
-*	[大型web系统数据缓存设计](https://mp.weixin.qq.com/s/Imn4FuXv2hw3uocgZsBlOg)
-*	[cache常见的陷阱与坑](https://github.com/oldratlee/cache-practice)
-*	[缓存穿透、缓存并发、热点缓存之最佳招式](https://mp.weixin.qq.com/s/62KJ2mSTGoUTPsq0RjU7lg)
-*	[再谈缓存的穿透、数据一致性和最终一致性问题](https://mp.weixin.qq.com/s/kYXabyZhVthF-9rR0Uv4lQ)
-*	[分布式缓存的25个优秀实践与线上案例](https://mp.weixin.qq.com/s/foQZSZ0xx0YYPHGawshc3g)
-*	[缓存在大型分布式系统中的最佳应用](https://mp.weixin.qq.com/s/f-K0lPjBPcYFK0hbZJF99Q)
-*	数据迁移	
-	* [分布式缓存的迁移方案](https://mp.weixin.qq.com/s/8WtbAaNRdaJvRWcVG5K5rQ)
-* [数据库和缓存双写一致性方案解析](https://mp.weixin.qq.com/s/xHOZ5Nr4LQwpQoRwoTDxZA)
-* [缓存架构，一篇足够？](https://mp.weixin.qq.com/s/4J3oM1j5hcLq4w4TdSEMPg)
 
 ---
 ### MQ消息
@@ -70,6 +99,10 @@
 *	[MQ消息可达性+幂等性+延时性架构设计](https://mp.weixin.qq.com/s/8oX7u8XcLL80_nNdN-UkvQ)
 *	[一网打尽消息队列在大型分布式系统中的实战精髓](https://mp.weixin.qq.com/s/Kpkr-vGUC9Po19iRPKfLfA)
 
+---
+### 配置管理
+
+* [分布式配置中心](https://mp.weixin.qq.com/s/MI_vtOo4EFAWm_e379uPUg?from=groupmessage&isappinstalled=0)
 
 ---
 ### 稳定性
@@ -80,10 +113,32 @@
 	* [如何设计API的限流](如何设计API的限流.md)
 	* [分布式限流](https://mp.weixin.qq.com/s/VXu82MgWwn993n8fSlaNtg)
 	* [探索常见的几种限流策略和实现](https://mp.weixin.qq.com/s/GEu7UVO7s_HX88T_DmBmnQ)
-	
-* 容灾
+	* [阿里巴巴宣布开源限流降级中间件——Sentinel](https://mp.weixin.qq.com/s/s-4JeeATl9NpkxUIeBHvSw?utm_source=tuicool&utm_medium=referral) 
+	* [限流降级神器，带你解读阿里巴巴开源 Sentinel （二）资源调用链](https://mp.weixin.qq.com/s/q3QUySAw4owaXYlfgQ15SA)
+	* [限流降级神器-哨兵(sentinel)原理分析](https://mp.weixin.qq.com/s/g2hyp9CquEAvTe8QmPO-3g)
+	* [从构建分布式秒杀系统聊聊限流特技](https://blog.52itstyle.com/archives/2982/)
+	* [限流系统如何发现系统的热点](https://mp.weixin.qq.com/s/wRKiEKT_Qe05Ie8XWgkaXQ)
+	* [想通关「限流」？只要这一篇](https://mp.weixin.qq.com/s/EpDh2j8eKaObVcE7a1F4jg)
+* 降级
+	* [降级](demotion.md)
+* 熔断
+	* [熔断器](fusing.md)
+	* [如何在到处是“雷”的系统中「明哲保身」](https://mp.weixin.qq.com/s/txh8-N_VEVh11Rc4oQGfqw)
 * 隔离
+	* [隔离设计](isolate.md)
+* 幂等
+	* [幂等性设计](idempotent.md)
+	* [并发与幂等性](https://my.oschina.net/wangen2009/blog/1560975)
+* 重试
+	* [重试设计](re-try.md)
 * 异地双活
+
+
+---
+### 流量相关
+
+* [流量调度](flow-dispatch.md)
+
 
 ---
 ### 高并发
@@ -96,9 +151,6 @@
 *	[接口鉴权（数字签名）](数字签名.md)
 
 	
----
-### 数据一致性
-* 	[并发与幂等性](https://my.oschina.net/wangen2009/blog/1560975)
 
 ---
 ### 锁相关
@@ -110,6 +162,7 @@
 	* [基于 zookeeper实现的分布式锁](lock-zk.md)
 	* [基于数据库实现分布式锁（不推荐）](lock-db.md)
 * [我们该使用哪种分布式锁？](https://mp.weixin.qq.com/s/0wmVSfrkFq7BfpUvydr-ug)
+* [从构建分布式秒杀系统聊聊分布式锁](https://mp.weixin.qq.com/s/-mziYuTMjECKpTLKZBumbw)
 
 ---
 ### 性能优化
@@ -128,6 +181,11 @@
 ### 技术选型
 
 *	[技术选型时的思考及注意事项](https://mp.weixin.qq.com/s/KUiHS4Jg7pqunEA3X6RQPw)
+
+---
+### 开源
+
+* [2018年阿里巴巴重要开源项目汇总](https://yq.aliyun.com/articles/676140)
 
 ---
 ### 架构汇总
